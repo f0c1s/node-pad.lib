@@ -1,0 +1,22 @@
+{
+  "name": "@f0c1s/pad",
+  "version": "2021.0.0",
+  "description": "A string padding utility from back when String in JS didn't have padStart and padEnd.",
+  "main": "src/node-pad.lib.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f0c1s/node-pad.lib.git"
+  },
+  "keywords": [
+    "padding",
+    "pad left",
+    "pad right",
+    "number pad"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f0c1s/node-pad.lib/issues"
+  },
+  "homepage": "https://github.com/f0c1s/node-pad.lib#readme"
+}
