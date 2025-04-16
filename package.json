@@ -1,11 +1,15 @@
 {
   "name": "@f0c1s/pad",
-  "version": "2021.0.0",
+  "version": "2025.0.0",
   "description": "A string padding utility from back when String in JS didn't have padStart and padEnd.",
   "main": "src/node-pad.lib.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/f0c1s/node-pad.lib.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine",
+    "build": "./node_modules/.bin/tsc --project tsconfig.json"
   },
   "keywords": [
     "padding",
@@ -13,10 +17,16 @@
     "pad right",
     "number pad"
   ],
-  "author": "",
+  "author": "Anubhav Saini <iamanubhavsaini+git@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/f0c1s/node-pad.lib/issues"
   },
-  "homepage": "https://github.com/f0c1s/node-pad.lib#readme"
+  "homepage": "https://github.com/f0c1s/node-pad.lib#readme",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.7",
+    "@types/node": "^22.14.1",
+    "jasmine": "^5.6.0",
+    "typescript": "^5.8.3"
+  }
 }
